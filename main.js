@@ -29,7 +29,6 @@ function check(){
 }
 function gotResult(error, results){
     if(error){
-        console.error(error);
     }else {
         console.log(results);
         document.getElementById("result_emoji_name").innerHTML = results[0].label;
